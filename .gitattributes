@@ -2,3 +2,4 @@
 *ffplay.exe filter=lfs diff=lfs merge=lfs -text
 resource/ffplay.exe filter=lfs diff=lfs merge=lfs -text
 resource/WebkitChrome/libcef.dll filter=lfs diff=lfs merge=lfs -text
+*/libcef.dll filter=lfs diff=lfs merge=lfs -text

@@ -1,4 +1,4 @@
-究极傻瓜教学：
+究极傻瓜教学（English below）：
 
 该程序很小，其中227MB是我写的webkit内核浏览器，112MB是ffplay。运行时，这两个程序也就10+你的文件MB，不等取决于你的网页和视频有多大。
 
@@ -38,12 +38,57 @@
 【确认】
 	会根据你的选项对你所选屏幕关闭之前的壁纸，放置新的壁纸
 
-【重置】
-	关闭你所选屏幕的壁纸。
-
 【Controller.exe】
 	如果你在你的应用管理器里看见了这个程序，不要害怕，它只是传递交互用的，基本不占内存，我还特地让它以每秒30帧的速度传输你的控制，所以怕个der啊。
+支持上下左右,WASD,QER,Enter,Shift,ctrl,ECS,左键,右键（CTRL+右键）.
 
 
 【关于BUG】
 	目前只发现一个bug，当你的笔记本屏幕在左边，但是设置右边副屏为主屏，则部分只有全屏的游戏的程序无法移动到副屏。
+
+
+==================================================================
+Ultimate Dummies Teaching (Google translation):
+
+The program is small, of which 227MB is the webkit kernel browser I wrote and 112MB is ffplay. When running, these two programs will also be 10+ MB of your files, depending on how big your web pages and videos are.
+
+[Video/Dynamic Image]
+Static images are also supported, because some dynamic image formats are the same as static images such as dynamic png.
+However, it is recommended to choose static images for static images.
+The video sound is preserved, and the unwanted ones are directly in:
+Turn off the sound of the video (display the video name) in "lower right corner of the computer -> volume -> right click -> open volume synthesizer".
+
+[picture] 
+For static images, selecting images will not occupy any additional resources, just like setting wallpapers in the system, and there is no need to start some programs at boot.
+Do not check the automatic boot, otherwise it will be processed according to [video/dynamic image], although the problem is not big, it will take up a few more mb.
+If you want to modify the properties after setting, you can set them directly in "Desktop->Right-click->Personalize".
+
+[exe] 	
+Some program windows have complex structures and require adaptation to interact.
+It has been adapted to (chrome kernel) web programs as much as possible (such as network suppression cloud).
+Some programs need to click the focused window to operate non-interactive
+(Focus: For example, if you play 4399, you have to click the game window to operate)
+
+[html]
+The webkit kernel of chrome is used, please feel free to write javascript.
+As long as your computer's GPU can handle the complex calculations you write, it can display.
+You can also download an interface directly from the web page ctrl+s.
+
+[website]
+Please make sure the input URL is correct and the computer has a network
+
+About 【self startup】
+For static images, don't choose to start automatically at boot, unless you don't mind taking up a few more MBs of memory.
+Autostart will not start the software, but will start an AutoStart software.
+Then the software opens the corresponding program as required last time, such as the Controller for interaction, and then closes itself.
+Enabling the boot auto-start will add an item to the boot auto-start item in the registry, and delete it automatically after canceling.
+In order not to burden your computer with this option, or people with obsessive-compulsive disorder don’t want to mess around, so we didn’t choose the registry that automatically starts up before the user logs in, because some people’s computers don’t have the RunService item and don’t want to give it to your computer. Automatically install extra stuff. So use RunOnce to start immediately after logging in, just like WallpaperEngine you may see the original wallpaper for a few seconds (depending on how fast your computer is). (It is recommended that you directly change the system wallpaper to a screenshot, so as to avoid the embarrassment of seeing the original wallpaper for obsessive-compulsive disorder, and I don’t need to download the redundant windows service for you)
+
+
+【Controller.exe】
+If you see this program in your application manager, don't be afraid, it's just for interactive use, it doesn't take up much memory, and I specially let it transmit your control at 30 frames per second, so be afraid of der what.
+Support up, down, left, right, WASD, QER, Enter, Shift, ctrl, ECS, left key, right key (CTRL+right key).
+
+
+【About BUG】
+At present, only one bug has been found. When your laptop screen is on the left, but the secondary screen on the right is set as the main screen, some programs that only have full screen games cannot be moved to the secondary screen.
