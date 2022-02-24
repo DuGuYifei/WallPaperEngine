@@ -16,6 +16,7 @@ C++ 简陋版一个程序管所有，判断文件格式
 
 ### Controller
 传递交互给壁纸(Control the input to wallpaper)
+WASD,QWER,shift,crtl,enter,esc,left click,right click(+ctrl)
 
 ### UI
 C#UI界面(The start program for user)
