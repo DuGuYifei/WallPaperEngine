@@ -1,5 +1,5 @@
 # Wallpaper Engine Project
-
+对于一些特别的情况并没有很好适配，但是其实只要添加让用户自己输入显示器参数的步骤即可解决，但是并不会对我的积累有任何帮助了，所以暂时停下来了。留个坑以后无聊时候可以填上
 ## Description for each folder
 
 ### 抛弃的开机自启动文件(the bat give up which was used to add to auto start menu)
