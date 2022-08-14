@@ -3,7 +3,7 @@
 ## Description for each folder
 
 ### 抛弃的开机自启动文件(the bat give up which was used to add to auto start menu)
-本来是靠代码唤起bat文件执行到开机自启文件夹，但是太慢了，已放弃
+本来是靠代码唤起bat文件执行到开机自启文件夹，但是太慢了，已放弃，换成注册表了
 
 ### WPEG (all release file place)
 最后的release文件
